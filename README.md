@@ -14,11 +14,18 @@ Salesforce Developers, Administrators, Business Analysts, and anyone else with a
 Just follow the [SFDX-Falcon Quick Start Guide](https://sfdx-isv.github.io/sfdx-falcon/start/quickstart.html), then execute three simple commands:
 
 ```html
+
+$ sfdx plugins:install sfdx-falcon // Install Falcon Plugin if you haven't already
+
 $ sfdx falcon:adk:clone https://github.com/cloudjunction/MJ-ADK.git
 
 $ sfdx falcon:adk:install
 ```
 
+## Windows User?
+
+Before getting started with Installing current Repo, make sure to complete the work-around after installing Falcon Plugins
+[Here](https://www.mhamzas.com/blog/2021/10/11/sfdx-falcon-plugin-fix-for-windows/) you'll find the details.
 ## Questions / Comments?
 
 To report bugs or request new features for the FSC Demo Pack, [create an issue in this repository](https://github.com/sfdx-isv/fsc-demo-pack/issues). 
