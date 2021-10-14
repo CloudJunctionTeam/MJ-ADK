@@ -5,11 +5,12 @@
   "description": "Contains a baseline demo of the Financial Services Cloud app.",
   "hasSampleData": false,
   "language": "en_US",
-  "features": [
-    "Communities",
+  "features": ["Communities",
     "ContactsToMultipleAccounts",
-    "PersonAccounts"
-  ],
+    "PersonAccounts",
+    "IndustriesActionPlan",
+    "FinancialServicesUser:5",
+    "DocumentChecklist"],
   "settings": {
     "orgPreferenceSettings": {
       "s1DesktopEnabled": true,

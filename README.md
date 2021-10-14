@@ -1,21 +1,8 @@
-# Financial Services Cloud (FSC) Demo Pack
+# MortgageJunction ScratchOrg Demo/Development Pack | MJ AppExchange Demo Kit (ADK) Recipe
 
 This repository contains an [AppExchange Demo Kit (ADK) Recipe](config/demo-recipe.json) and some carefully crafted [App Config](mdapi-source/app-config) and [Data Config](mdapi-source/data-config) Salesforce metadata.  
 
 On their own, they're nothing special.  But collectively, these can be used by anyone with the [SFDX-Falcon Plugin](https://github.com/sfdx-isv/sfdx-falcon) to build a fully-functional Financial Services Cloud (FSC) demo in a Scratch Org in **8 minutes or less** with **ZERO manual steps**. 
-
-## Building FSC orgs WITHOUT the FSC Demo Pack (the OLD way) is HARD...
-
-Setting up an FSC Demo or Developer Org _without_ the ADK and the FSC Demo Pack goes like this:
-
-![FSC Developer Org Setup WITHOUT the AppExchange Demo Kit (ADK)](https://drive.google.com/uc?export=view&id=1UxX2yx6S9QYwYyqiyIdF4jH0D0VOFuj9)
-
-## Building FSC orgs WITH the FSC Demo Pack (the NEW way) is EASY!
-
-When you use the **FSC Demo Pack** together with the [AppExchange Demo Kit (ADK)](https://github.com/sfdx-isv/sfdx-falcon-appx-demo-kit), setting up an FSC Demo or Developer org goes like this!
-
-![FSC Developer Org Setup WITH the AppExchange Demo Kit (ADK)](https://drive.google.com/uc?export=view&id=17IUHI3VfCqLXKIgOrNxFCEEWos0gtRkf)
-
 ## Here's what the process looks like in action
 
 ![AppExchange Demo Kit (ADK) falcon:adk:install](https://drive.google.com/uc?export=view&id=1pHTCkPSmGHzS_FoqidyA400ys6yFV8Am)
@@ -27,9 +14,7 @@ Salesforce Developers, Administrators, Business Analysts, and anyone else with a
 Just follow the [SFDX-Falcon Quick Start Guide](https://sfdx-isv.github.io/sfdx-falcon/start/quickstart.html), then execute three simple commands:
 
 ```html
-$ sfdx falcon:adk:clone https://github.com/sfdx-isv/fsc-demo-pack.git
-
-$ cd fsc-demo-pack
+$ sfdx falcon:adk:clone https://github.com/cloudjunction/MJ-ADK.git
 
 $ sfdx falcon:adk:install
 ```

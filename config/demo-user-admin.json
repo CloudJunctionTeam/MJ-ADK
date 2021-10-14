@@ -1,13 +1,13 @@
 {
   "Username": "admin@demo-user.org",
-  "FirstName": "Kermit",
-  "LastName": "Frog",
+  "FirstName": "CJA",
+  "LastName": "Dev",
   "Alias": "KFrog",
-  "Email": "kermit@test.com",
+  "Email": "dev@cloudjunction.cloud",
   "TimeZoneSidKey": "America/Los_Angeles",
   "LocaleSidKey": "en_US",
   "EmailEncodingKey": "UTF-8",
   "LanguageLocaleKey": "en_US",
   "profileName": "System Administrator",
-  "permsets": ["FinancialServicesCloudStandard"]
+  "permsets": ["FinancialServicesCloudStandard","DocumentChecklist","Mortgage","MortgageJunction_Meta","MortgageJunction"]
 }

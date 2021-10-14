@@ -12,7 +12,7 @@
     "targetOrgs": [
       {
         "orgName":        "Scratch Org Demo",
-        "alias":          "sfdx-isv_fsc-demo-pack_scratch-demo",
+        "alias":          "mj-demo-org",
         "description":    "Installs the FSC Demo Pack in a Scratch Org",
         "isScratchOrg":   true,
         "scratchDefJson": "demo-scratch-def.json"
@@ -31,7 +31,7 @@
           "action":       "install-package",
           "options": {
             "packageName":      "Financial Services Cloud (Managed Package), Version 220.6",
-            "packageVersionId": "04t1E000000y9ew"
+            "packageVersionId": "04t1E000000jb9R"
           }
         },
         {
@@ -41,6 +41,15 @@
           "options": {
             "packageName":      "Financial Services Cloud (Unmanaged Package), Version 218.1",
             "packageVersionId": "04t1E000001Iql5"
+          }
+        },
+        {
+          "stepName":     "Install MJ Schema (unlocked)",
+          "description":  "Installs latest version of MortgageJunction Schema",
+          "action":       "install-package",
+          "options": {
+            "packageName":      "MortgageJunctionMeta",
+            "packageVersionId": "0Ho3m000000blLeCAI"
           }
         }
       ]

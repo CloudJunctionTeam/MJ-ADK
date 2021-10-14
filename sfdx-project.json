@@ -6,18 +6,17 @@
   "sourceApiVersion": "45.0",
   "plugins": {
     "sfdxFalcon": {
-      "developerAlias"  : "sfdx-isv",
-      "developerName"   : "Salesforce DX Tech Enablement for ISVs",
-      "projectAlias"    : "fsc-demo-pack",
-      "projectName"     : "FSC Demo Pack Starter Kit",
-      "projectFamily"   : "ADK",
-      "projectType"     : "single-demo",
+      "producerAlias"   : "cja",
+      "producerName"    : "CloudJunction Advisors, Inc.",
+      "projectAlias"    : "mj-demo-app",
+      "projectName"     : "MortgageJunction Demo App",
+      "projectType"     : "appx:single-demo",
       "defaultRecipe"   : "demo-recipe.json",
-      "gitRemoteUri"    : "https://github.com/sfdx-isv/fsc-demo-pack.git",
+      "gitRemoteUri"    : "https://github.com/cloudjunction/MJ-ADK.git",
       "gitHubUrl"       : "https://github.com/my-org/my-repo",
-      "projectVersion"  : "0.0.2",
+      "projectVersion"  : "0.0.1",
       "schemaVersion"   : "0.0.1",
-      "pluginVersion"   : "0.0.93",
+      "pluginVersion"   : "0.0.92",
       "appxPackage"     : {},
       "appxDemo": {
         "demoRecipes"   : ["demo-recipe.json"]
