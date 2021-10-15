@@ -26,6 +26,14 @@ $ sfdx falcon:adk:install
 
 Before getting started with Installing current Repo, make sure to complete the work-around after installing Falcon Plugins
 [Here](https://www.mhamzas.com/blog/2021/10/11/sfdx-falcon-plugin-fix-for-windows/) you'll find the details.
+
+## Need Username and Password to Share?
+You can run this command to generate password for the current user,
+
+```html
+$ sfdx force:user:password:generate
+```
+
 ## Questions / Comments?
 
 To report bugs or request new features for the FSC Demo Pack, [create an issue in this repository](https://github.com/sfdx-isv/fsc-demo-pack/issues). 
