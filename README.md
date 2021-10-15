@@ -14,7 +14,7 @@ Salesforce Developers, Administrators, Business Analysts, and anyone else with a
 Just follow the [SFDX-Falcon Quick Start Guide](https://sfdx-isv.github.io/sfdx-falcon/start/quickstart.html), then execute three simple commands:
 
 ```html
-
+ 
 $ sfdx plugins:install sfdx-falcon // Install Falcon Plugin if you haven't already
 
 $ sfdx falcon:adk:clone https://github.com/cloudjunction/MJ-ADK.git
