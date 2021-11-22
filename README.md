@@ -17,7 +17,7 @@ Just follow the [SFDX-Falcon Quick Start Guide](https://sfdx-isv.github.io/sfdx-
  
 $ sfdx plugins:install sfdx-falcon // Install Falcon Plugin if you haven't already
 
-$ git clone https://github.com/cloudjunction/MJ-ADK.git
+$ sfdx falcon:adk:clone https://github.com/cloudjunctionTeam/MJ-ADK.git
 
 $ sfdx falcon:adk:install
 ```
