@@ -6,17 +6,18 @@
   "sourceApiVersion": "45.0",
   "plugins": {
     "sfdxFalcon": {
-      "producerAlias"   : "cja",
-      "producerName"    : "CloudJunction Advisors, Inc.",
+      "developerAlias"  : "cja",
+      "developerName"   : "CloudJunction Advisors, Inc.",
       "projectAlias"    : "mj-demo-app",
       "projectName"     : "MortgageJunction Demo App",
-      "projectType"     : "appx:single-demo",
+      "projectFamily"   : "ADK",
+      "projectType"     : "single-demo",
       "defaultRecipe"   : "demo-recipe.json",
-      "gitRemoteUri"    : "https://github.com/cloudjunction/MJ-ADK.git",
+      "gitRemoteUri"    : "https://github.com/cloudjunctionTeam/MJ-ADK.git",
       "gitHubUrl"       : "https://github.com/my-org/my-repo",
-      "projectVersion"  : "0.0.1",
+      "projectVersion"  : "0.0.2",
       "schemaVersion"   : "0.0.1",
-      "pluginVersion"   : "0.0.92",
+      "pluginVersion"   : "0.0.93",
       "appxPackage"     : {},
       "appxDemo": {
         "demoRecipes"   : ["demo-recipe.json"]
