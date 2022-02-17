@@ -19,7 +19,7 @@
       }
     ]
   },
-  "recipeStepGroups": [
+  "recisfStepGroups": [
     {
       "stepGroupName":  "Install Packages",
       "alias":          "install-packages",
@@ -49,7 +49,7 @@
           "action":       "install-package",
           "options": {
             "packageName":      "MortgageJunctionMeta",
-            "packageVersionId": "04t3m000000kpRXAAY"
+            "packageVersionId": "04t3m000000kpYiAAI"
           }
         }
       ]
