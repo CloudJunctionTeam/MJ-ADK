@@ -19,7 +19,7 @@
       }
     ]
   },
-  "recisfStepGroups": [
+  "recipeStepGroups": [
     {
       "stepGroupName":  "Install Packages",
       "alias":          "install-packages",
